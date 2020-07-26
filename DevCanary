@@ -1,0 +1,32 @@
+def add(x,y): 
+return (x+y)
+def add(x,y): 
+return (x-y)
+def add(x,y): 
+return (x*y)
+def add(x,y): 
+return (x/y)
+Print("Please Chose the Operator")
+Print("1.Addition")
+Print("2.Subract")
+Print("3.Multiply")
+Print("4.Divide")
+While True
+Choice=input ("Enter the Operator Number: 1,2,3,4:")
+if Choice in ('1', '2','3','4')
+    num1=float(input("Enter First Number: "))
+     num2=floar(input("Enter Second Number: "))
+ if choice == '1':
+            print(num1, "+", num2, "=", add(num1, num2))
+
+        elif choice == '2':
+            print(num1, "-", num2, "=", subtract(num1, num2))
+
+        elif choice == '3':
+            print(num1, "*", num2, "=", multiply(num1, num2))
+
+        elif choice == '4':
+            print(num1, "/", num2, "=", divide(num1, num2))
+        break
+    else:
+        print("Invalid Input")
